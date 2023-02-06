@@ -23,17 +23,17 @@ const BannerSection = () => {
             <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
             <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
             <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+            {/* <li data-target="#carouselExampleIndicators" data-slide-to="4"></li> */}
           </ol>
           <div className="carousel-inner" role="listbox">
             <div className="carousel-item active">
               <img
                 className="d-block slideimage"
-                src="./images1/slide1.webp"
+                src="./images/Bloom1.png"
                 alt="First slide"
               />
               <div className="carousel-caption d-none d-md-block">
-                <h1>
+                {/* <h1>
                   <b>Blooming Buds Play School</b>
                 </h1>
                 <p>
@@ -42,17 +42,17 @@ const BannerSection = () => {
                     allows Blooming Buds Play School to facilitate 21st century
                     teaching and learning for its teachers and students.
                   </b>
-                </p>
+                </p> */}
               </div>
             </div>
             <div className="carousel-item">
               <img
                 className="d-block slideimage"
-                src="./images1/slide2_11zon.webp"
+                src="./images/Bloom2.png"
                 alt="Second slide"
               />
               <div className="carousel-caption d-none d-md-block">
-                <h1 style={{ color: "black" }}>
+                {/* <h1 style={{ color: "black" }}>
                   <b>Dynamic Educators</b>
                 </h1>
                 <p>
@@ -60,36 +60,36 @@ const BannerSection = () => {
                     Blooming Buds Play School to facilitate 21st century
                     teaching and learning for its teachers and students.
                   </b>
-                </p>
+                </p> */}
               </div>
             </div>
             <div className="carousel-item">
               <img
                 className="d-block slideimage"
-                src="./images1/slide3_11zon.webp"
+                src="./images/Bloom3.png"
                 alt="Third slide"
               />
               <div className="carousel-caption d-none d-md-block">
-                <h1>
+                {/* <h1>
                   <b>Hands-on learning</b>
                 </h1>
                 <p>
                   <b>
-                    Since its inception, HIS has consistently grown year after
+                    Since its inception, Blooming Buds Play School has consistently grown year after
                     year and has gained a reputation of becoming a leading
                     educational institute.
                   </b>
-                </p>
+                </p> */}
               </div>
             </div>
             <div className="carousel-item">
               <img
                 className="d-block slideimage"
-                src="./images1/slide4_11zon.webp"
+                src="./images/Bloom4.png"
                 alt="Fourt slide"
               />
               <div className="carousel-caption d-none d-md-block">
-                <h1>
+                {/* <h1>
                   <b>Safe and Caring Environment</b>
                 </h1>
                 <p>
@@ -97,10 +97,10 @@ const BannerSection = () => {
                     Feeling safe and cared for is what makes our school
                     community a complete family!
                   </b>
-                </p>
+                </p> */}
               </div>
             </div>
-            <div className="carousel-item">
+            {/* <div className="carousel-item">
               <img
                 className="d-block slideimage"
                 src="./images1/slide5_11zon.webp"
@@ -118,7 +118,7 @@ const BannerSection = () => {
                   </b>
                 </p>
               </div>
-            </div>
+            </div> */}
           </div>
           <a
             className="carousel-control-prev"
@@ -177,7 +177,7 @@ const BannerSection = () => {
               <p>
                 Skilled Staff is here to teach or guide for your bright carrier
                 and and provides Handson in our School.Teachers play a key role
-                in identifying and supporting students...
+                in identifying and supporting students One of the most important skills for a preschool teacher is the ability to communicate well.
               </p>
             </div>
           </div>
@@ -252,13 +252,12 @@ const BannerSection = () => {
                 upon space availability. To determine admission eligibility for
                 students transferring from another school, official report cards
                 as well as other supporting documents are submitted upon
-                application.
-                Blooming Buds Play School is a unique place for our little
-                learner where they learn with fun. We offer the best of Play way
-                methods of education. Here they grow & develop with learning and
-                playing. Here they became independent and confident from
-                dependence. Here they became social and skilled.
-                 {/* Here they learn
+                application. Blooming Buds Play School is a unique place for our
+                little learner where they learn with fun. We offer the best of
+                Play way methods of education. Here they grow & develop with
+                learning and playing. Here they became independent and confident
+                from dependence. Here they became social and skilled.
+                {/* Here they learn
                 to create their own world. Blooming Buds Play School Way is only
                 a part of educational development of child, with as much
                 emphasis placed on preparation for the future. Teaching is
@@ -292,7 +291,7 @@ const BannerSection = () => {
           </div>
           <div className="hlsmid text-center p-5">
             <div className="card_imgl my-5">
-              <img src="./images/logo.jpeg" alt="" />
+              <img src="./images/Blooming-logo.png" alt="" />
             </div>
             <div className="title1 my-5">
               <div className="hlstbutton1">

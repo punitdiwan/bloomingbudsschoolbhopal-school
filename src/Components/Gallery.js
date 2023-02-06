@@ -22,10 +22,10 @@ const Gallery = () => {
         <div className="first">
         
             <div className="one">
-            <img src="./images/g5.jpeg" alt="" />
+            <img src="./images/g-5.jpeg" alt="" />
             </div>
             <div className="one">
-            <img src="./images/g6.jpeg" alt="" />
+            <img src="./images/g-6.jpeg" alt="" />
             </div><div className="one">
             <img src="./images/g7.jpeg" alt="" />
             </div><div className="one">
@@ -49,9 +49,9 @@ const Gallery = () => {
             <img src="./images/g3.jpeg" alt="" />
             </div>
             <div className="one">
-            <img src="./images/g14.jpeg" alt="" />
+            <img src="./images/g-14.jpeg" alt="" />
             </div><div className="one">
-            <img src="./images/g15.jpeg" alt="" />
+            <img src="./images/g-15.jpeg" alt="" />
             </div><div className="one">
             <img src="./images/g16.jpeg" alt="" />
             </div>
