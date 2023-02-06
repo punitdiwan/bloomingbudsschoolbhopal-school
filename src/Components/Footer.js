@@ -11,7 +11,7 @@ const Footer = () => {
            <div className="footerbottm">
              <div className="fbleft">
                 <li className='my-3'><NavLink  to="/">Home</NavLink></li>
-                <li className='my-3'><NavLink  to="/boarddirector">Board of Director</NavLink></li>
+                {/* <li className='my-3'><NavLink  to="/boarddirector">Board of Director</NavLink></li> */}
                 <li className='my-3'><NavLink  to="/principal">Principal</NavLink></li>
                 <li className='my-3'><NavLink  to="/gallery">Gallery</NavLink></li>
              </div>
@@ -28,7 +28,7 @@ const Footer = () => {
 
        <div className="footerleft">
          <div className="logo">
-            <img src="./images/Blooming-logo.png" alt="" />
+            <img src="./images/Blooming_Logo_1.png" alt="" />
          </div>
        </div>
        <div className="fbrightt">

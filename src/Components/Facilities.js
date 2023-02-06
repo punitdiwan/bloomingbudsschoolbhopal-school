@@ -121,7 +121,7 @@ const Facilities = () => {
 
             <div className="facilitCard">
               <div className="facilimages">
-                <img src="./images1/bus1.webp" alt="" />
+                <img src="./images/trans.jpeg" alt="" />
               </div>
               <div className="facontent">
                 <div className="factitle">Transport Facility</div>

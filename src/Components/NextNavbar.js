@@ -25,7 +25,7 @@ const NextNavbar = () => {
         </NavLink>
         <div className="dropdown-menu" style={{backgroundColor:"#2F3A72", width:"auto"}}  aria-labelledby="navbarDropdownMenuLink">
           <NavLink className="dropdown-item" style={{backgroundColor:"#2F3A72", width:"100%", border:"none",color:"white"}} to="/ourschool">OUR SCHOOL</NavLink>
-          <NavLink className="dropdown-item" style={{backgroundColor:"#2F3A72", width:"100%", border:"none",color:"white"}} to="/boarddirector">BOARD OF DIRECTOR</NavLink>
+          {/* <NavLink className="dropdown-item" style={{backgroundColor:"#2F3A72", width:"100%", border:"none",color:"white"}} to="/boarddirector">BOARD OF DIRECTOR</NavLink> */}
           <NavLink className="dropdown-item" style={{backgroundColor:"#2F3A72", width:"100%", border:"none",color:"white"}} to="/principal">PRINCIPAL</NavLink>
         </div>
       </li>

@@ -21,17 +21,17 @@ const BannerSection = () => {
             ></li>
             <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
             <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+            {/* <li data-target="#carouselExampleIndicators" data-slide-to="3"></li> */}
+            {/* <li data-target="#carouselExampleIndicators" data-slide-to="4"></li> */}
           </ol>
           <div className="carousel-inner" role="listbox">
             <div className="carousel-item active">
               <img
                 className="d-block slideimage"
-                src="./images1/slide1.webp"
+                src="./images/Bloom2.png"
                 alt="First slide"
               />
-              <div className="carousel-caption d-none d-md-block">
+              {/* <div className="carousel-caption d-none d-md-block">
                 <h1>
                   <b>Hogwarts International School</b>
                 </h1>
@@ -41,12 +41,12 @@ const BannerSection = () => {
                     teachers and students.
                   </b>
                 </p>
-              </div>
+              </div> */}
             </div>
-            <div className="carousel-item">
+            {/* <div className="carousel-item">
               <img
                 className="d-block slideimage"
-                src="./images/Blooming3.jpeg"
+                src="./images/Bloom2.png"
                 alt="Second slide"
               />
               <div className="carousel-caption d-none d-md-block">
@@ -60,14 +60,14 @@ const BannerSection = () => {
                   </b>
                 </p>
               </div>
-            </div>
+            </div> */}
             <div className="carousel-item">
               <img
                 className="d-block slideimage"
-                src="./images/Blooming3.jpeg"
+                src="./images/Bloom3.png"
                 alt="Third slide"
               />
-              <div className="carousel-caption d-none d-md-block">
+              {/* <div className="carousel-caption d-none d-md-block">
                 <h1>
                   <b>Hands-on learning</b>
                 </h1>
@@ -78,15 +78,15 @@ const BannerSection = () => {
                     Muslim educational institute.
                   </b>
                 </p>
-              </div>
+              </div> */}
             </div>
-            {/* <div className="carousel-item">
+            <div className="carousel-item">
               <img
                 className="d-block slideimage"
-                src="./images1/slide4_11zon.webp"
+                src="./images/Bloom4.png"
                 alt="Fourt slide"
               />
-              <div className="carousel-caption d-none d-md-block">
+              {/* <div className="carousel-caption d-none d-md-block">
                 <h1>
                   <b>Safe and Caring Environment</b>
                 </h1>
@@ -96,8 +96,8 @@ const BannerSection = () => {
                     community a complete family!
                   </b>
                 </p>
-              </div>
-            </div> */}
+              </div> */}
+            </div>
             {/* <div className="carousel-item">
               <img
                 className="d-block slideimage"

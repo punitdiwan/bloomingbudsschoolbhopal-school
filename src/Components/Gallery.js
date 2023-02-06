@@ -44,9 +44,9 @@ const Gallery = () => {
             <img src="./images/g12.jpeg" alt="" />
             </div>
         </div>
-        <div className="first">
+        {/* <div className="first">
             <div className="one">
-            <img src="./images/g3.jpeg" alt="" />
+            <img src="./images/g-extra.jpeg" alt="" />
             </div>
             <div className="one">
             <img src="./images/g-14.jpeg" alt="" />
@@ -55,7 +55,7 @@ const Gallery = () => {
             </div><div className="one">
             <img src="./images/g16.jpeg" alt="" />
             </div>
-        </div>
+        </div> */}
     </div>
     </>
   )

@@ -22,14 +22,14 @@ const BannerSection = () => {
             ></li>
             <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
             <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+            {/* <li data-target="#carouselExampleIndicators" data-slide-to="3"></li> */}
             {/* <li data-target="#carouselExampleIndicators" data-slide-to="4"></li> */}
           </ol>
           <div className="carousel-inner" role="listbox">
             <div className="carousel-item active">
               <img
                 className="d-block slideimage"
-                src="./images/Bloom1.png"
+                src="./images/Bloom2.png"
                 alt="First slide"
               />
               <div className="carousel-caption d-none d-md-block">
@@ -45,14 +45,14 @@ const BannerSection = () => {
                 </p> */}
               </div>
             </div>
-            <div className="carousel-item">
+            {/* <div className="carousel-item">
               <img
                 className="d-block slideimage"
                 src="./images/Bloom2.png"
                 alt="Second slide"
               />
               <div className="carousel-caption d-none d-md-block">
-                {/* <h1 style={{ color: "black" }}>
+                <h1 style={{ color: "black" }}>
                   <b>Dynamic Educators</b>
                 </h1>
                 <p>
@@ -60,9 +60,9 @@ const BannerSection = () => {
                     Blooming Buds Play School to facilitate 21st century
                     teaching and learning for its teachers and students.
                   </b>
-                </p> */}
+                </p>
               </div>
-            </div>
+            </div> */}
             <div className="carousel-item">
               <img
                 className="d-block slideimage"
@@ -155,7 +155,7 @@ const BannerSection = () => {
         <div className="container-fluid px-5 d-flex latest_card_box">
           <div className="lnewsleft p-3">
             <div className="card_img1">
-              <img src="./images/preschool.jpeg" alt="" />
+              <img src="./images/pre.jpeg" alt="" />
             </div>
             <div className="title">
               <h3 className="my-3 ak">Pre-School</h3>
@@ -291,7 +291,7 @@ const BannerSection = () => {
           </div>
           <div className="hlsmid text-center p-5">
             <div className="card_imgl my-5">
-              <img src="./images/Blooming-logo.png" alt="" />
+              <img src="./images/Blooming_Logo_1.png" alt="" />
             </div>
             <div className="title1 my-5">
               <div className="hlstbutton1">

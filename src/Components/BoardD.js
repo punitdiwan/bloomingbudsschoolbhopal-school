@@ -35,7 +35,7 @@ const BoardD = () => {
                   students to maximize their potential at an internationally
                   competitive level. highly qualified and well-trained teachers.
                   I welcome you to be a part of Blooming Buds Play School
-                  International family!
+                  family!
                 </p>
               </div>
             </div>
@@ -88,7 +88,7 @@ const BoardD = () => {
                 greatest strength of Blooming Buds is the high quality
                 programmes and transparency in its system. We are fortunate to
                 have a school which includes talented teachers and supportive
-                parents who work together to make Seedling , an ideal place for
+                parents who work together to make Blooming Buds , an ideal place for
                 our motivated students to learn and grow. We are always open to
                 new ideas, inquiries and feedback, from all. Over the past 11
                 years, Blooming Buds has lived up to its mission statement and
