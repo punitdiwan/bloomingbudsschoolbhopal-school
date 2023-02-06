@@ -58,6 +58,20 @@
    margin: 0px 10px;
 
 }
+.new-footer{
+    list-style: none;
+    width: max-content;
+    margin-left: 5rem;
+    padding: 1rem;
+    color: #fff;
+}
+
+.new-footer a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.5vmax;
+    margin: 20px 0px;
+}
 
 @keyframes mymove {
     from {
