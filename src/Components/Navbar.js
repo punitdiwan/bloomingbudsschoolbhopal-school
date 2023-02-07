@@ -1,5 +1,7 @@
 import React from "react";
 import "./css/Navbar.css";
+import { BsInstagram } from "react-icons/bs";
+import { AiOutlineYoutube } from "react-icons/ai";
 
 const Navbar = () => {
   return (
@@ -19,9 +21,26 @@ const Navbar = () => {
         </div>
         <div className="navright">
           <div className="socialmedia">
-            <i className="ri-facebook-fill"></i>
-            <i className="ri-linkedin-box-fill"></i>
-            <i className="ri-youtube-line"></i>
+            <a
+              href="https://www.facebook.com/profile.php?id=100081782228072"
+              target="_blank"
+            >
+              {" "}
+              <i className="ri-facebook-fill"></i>
+            </a>
+            <span>
+              {" "}
+              <a
+                href="https://instagram.com/bloomingbudsplayschool?igshid=ZmZhODViOGI="
+                target="_blank"
+              >
+                <BsInstagram />
+              </a>
+            </span>
+            <span>
+            <AiOutlineYoutube />
+            </span>
+           
           </div>
           <div className="seacrch">
             <input className="aa" type="search" />

@@ -1,6 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import "./css/Footer.css";
+import { FaInstagram,FaFacebookSquare,FaYoutube} from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -60,9 +61,30 @@ const Footer = () => {
         </div>
         <div className="fbrightt">
           <div className="socialmedia1">
-            <i className="ri-facebook-fill"></i>&nbsp; &nbsp; &nbsp;&nbsp;
-            <i className="ri-linkedin-box-fill"></i>&nbsp; &nbsp;&nbsp;&nbsp; 
-            <i className="ri-youtube-line"></i>
+            <span>
+              <a
+                href="https://www.facebook.com/profile.php?id=100081782228072"
+                target="_blank"
+              >
+                <FaFacebookSquare/>
+              </a>
+            </span>
+
+           
+
+            <span>
+              <a href="">
+                <FaYoutube/>
+              </a>
+            </span>
+            <span  className="insta">
+              <a 
+                href="https://instagram.com/bloomingbudsplayschool?igshid=ZmZhODViOGI="
+                target="_blank" 
+              >
+                <FaInstagram />
+              </a>
+            </span>
           </div>
           <div className="seacrch">
             <input className="aa" type="search" />
