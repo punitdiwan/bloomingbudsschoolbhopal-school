@@ -49,7 +49,7 @@ const Facilities = () => {
             {/* sports */}
             <div className="facilitCard">
               <div className="facilimages">
-                <img src="./images/yoga.jpeg" alt="" />
+                <img src="./images/fac_yoga.jpeg" alt="" />
               </div>
               <div className="facontent">
                 <div className="factitle">Yoga & Mediatation</div>
@@ -82,7 +82,7 @@ const Facilities = () => {
             {/* hygiene washroom */}
             <div className="facilitCard">
               <div className="facilimages">
-                <img src="./images/cultural.jpeg" alt="" />
+                <img src="./images/cult.jpeg" alt="" />
               </div>
               <div className="facontent">
                 <div className="factitle">Cultural Activity</div>

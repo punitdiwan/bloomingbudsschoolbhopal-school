@@ -155,7 +155,7 @@ const BannerSection = () => {
         <div className="container-fluid px-5 d-flex latest_card_box">
           <div className="lnewsleft p-3">
             <div className="card_img1">
-              <img src="./images/pre.jpeg" alt="" />
+              <img src="./images/home_pre.jpeg" alt="" />
             </div>
             <div className="title">
               <h3 className="my-3 ak">Pre-School</h3>
@@ -182,8 +182,8 @@ const BannerSection = () => {
             </div>
           </div>
           <div className="lnewsright p-3">
-            <div className="card_img1">
-              <img src="./images/homespo.jpeg" alt="" />
+            <div className="card_img1  extra" >
+              <img src="./images/home_yaga.jpeg" alt="" />
             </div>
             <div className="title">
               <h3 className="my-3 ak">Sports</h3>
