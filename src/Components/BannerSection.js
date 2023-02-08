@@ -28,7 +28,7 @@ const BannerSection = () => {
             <div className="carousel-item active">
               <img
                 className="d-block slideimage"
-                src="./images/Bloom2.png"
+                src="./images/Bloom(2).png"
                 alt="First slide"
               />
               {/* <div className="carousel-caption d-none d-md-block">
