@@ -19,17 +19,12 @@ const AcademicPRocedure = () => {
               </h3>
 
               <p>
-                Blooming Buds Play School provides children with a play-based or
-                emergent curriculum, which is child-centred and teacher
-                framed.Our educators develop large and small group instruction
-                as well as learning centres, based on observed student
-                abilities, skills and interests.Age-appropriate instruction,
-                activities, and/or centres will be provided to children daily
-                in: India , Foundational Literacy and Numeracy, and Outdoor
-                Learning.A strong focus is put on developing children’s
-                self-regulation and growing independence within a caring and
-                nurturing environment that considers children’s social,
-                emotional, cognitive, physical and spiritual well being.
+                Blooming Buds Play School provide our student with good
+                encyclopedia to reduce their encumbrance regarding any subject
+                academically or globally. We teach students by smart classes for
+                active participation and deep knowledge. A good psychiatrist and
+                counselor for students and Parents is available during school
+                timings.
               </p>
               <h5>
                 <b>Age Requirement:</b>
@@ -52,11 +47,13 @@ const AcademicPRocedure = () => {
                 (grade V & above) and the school rule book
               </p>
               <p>
-                <b>School time:</b> &nbsp; Monday to Saturday from 9: 00 a.m.to 12: 00 p.m.
+                <b>School time:</b> &nbsp; Monday to Saturday from 9: 00 a.m.to
+                12: 00 p.m.
               </p>
 
               <p>
-                <b>Office time:</b> &nbsp; Monday to Saturday from 9: 00 a.m.to 2: 00 p.m.
+                <b>Office time:</b> &nbsp; Monday to Saturday from 9: 00 a.m.to
+                2: 00 p.m.
               </p>
 
               <h5>

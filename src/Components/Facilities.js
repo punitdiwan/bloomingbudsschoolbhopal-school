@@ -126,13 +126,12 @@ const Facilities = () => {
               <div className="facontent">
                 <div className="factitle">Transport Facility</div>
                 <p>
-                  The school provides transport facility to the students through
-                  Buses & Magic for transporting the students from different
-                  localities to the school and vice-versa. Students can avail
-                  the Transport facility by putting up an application. All the
-                  buses have trained driver’s and conductor’s. The school
-                  follows all the rules and regulations of M.P. Government for
-                  the buses.
+                  The school provides transport facility to the students for
+                  transporting the students from different localities to the
+                  school and vice-versa. Students can avail the Transport
+                  facility by putting up an application. All the buses have
+                  trained driver’s and conductors. The school follows all the
+                  rules and regulations of M.P. Government.
                 </p>
               </div>
             </div>
