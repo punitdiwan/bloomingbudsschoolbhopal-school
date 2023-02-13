@@ -291,7 +291,7 @@ const BannerSection = () => {
           </div>
           <div className="hlsmid text-center p-5">
             <div className="card_imgl my-5">
-              <img src="./images/Blooming_Logo_1.png" alt="" />
+              <img src="./images/logo1.jpg" alt="" />
             </div>
             <div className="title1 my-5">
               <div className="hlstbutton1">
