@@ -84,7 +84,7 @@ const AcademicPRocedure = () => {
                 activity.Educators will consider parent requests related to
                 naps, but will follow child’s cues ultimately.
               </p>
-              <h5>Outdoor Time:</h5>
+              {/* <h5>Outdoor Time:</h5>
               <p>
                 The Ministry of Education requires that hildren spend at least
                 two (2) hours per day outdoors, weather permitting.
@@ -96,7 +96,7 @@ const AcademicPRocedure = () => {
                 handbook which is available to the public.Our handbook
                 highlights all details of our program and can be accessed by
                 clicking below:
-              </p>
+              </p> */}
               {/* <h5 style={{ color: "#3888BF" }}>
                 Junior Champions Parent Handbook 2020-21
               </h5> */}
