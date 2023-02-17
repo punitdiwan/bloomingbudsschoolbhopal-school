@@ -177,12 +177,14 @@ const BannerSection = () => {
               <p>
                 Skilled Staff is here to teach or guide for your bright carrier
                 and and provides Handson in our School.Teachers play a key role
-                in identifying and supporting students One of the most important skills for a preschool teacher is the ability to communicate well.
+                in identifying and supporting students One of the most important
+                skills for a preschool teacher is the ability to communicate
+                well.
               </p>
             </div>
           </div>
           <div className="lnewsright p-3">
-            <div className="card_img1  extra" >
+            <div className="card_img1  extra">
               <img src="./images/home_yaga.jpeg" alt="" />
             </div>
             <div className="title">
@@ -225,7 +227,7 @@ const BannerSection = () => {
                 a definite curriculum for all the levels and provide designated
                 admission kits for little ones at the time of admission. The
                 playschool education affordable and available to every child
-                looking forward to having a better tomorrow! We are a K to 8
+                looking forward to having a better tomorrow! We are a Nursery to KG II
                 school with a wide array of resources designed to foster student
                 achievement that will prepare our pupils to pursue higher
                 education and be competitive in their careers.

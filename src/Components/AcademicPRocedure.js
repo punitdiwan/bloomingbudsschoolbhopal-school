@@ -32,7 +32,7 @@ const AcademicPRocedure = () => {
               <p>
                 Parents interested in our preschool must ensure that their child
                 meets the age requirements; children must be between the ages of
-                2.5 to 6 years old to be eligible to apply.Parents are asked for
+                2.5 years old to be eligible to apply.Parents are asked for
                 their child’s proof of age at time of application.
               </p>
               <h5>
@@ -41,10 +41,10 @@ const AcademicPRocedure = () => {
               <p>
                 Parents are required to submit a non-refundable application form
                 to the school. Registered parents are invited to visit the
-                campus to understand the Goenkan culture & ethos. The mere act
+                {/* campus to understand the Goenkan culture & ethos. The mere act
                 of Registration will not constitute a guaranteed admission,
                 which is subject to interaction with Principal, Aptitude test
-                (grade V & above) and the school rule book
+                (grade V & above) and the school rule book */}
               </p>
               <p>
                 <b>School time:</b> &nbsp; Monday to Saturday from 9: 00 a.m.to
