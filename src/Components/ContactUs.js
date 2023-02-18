@@ -97,7 +97,7 @@ const ContactUs = () => {
 
           <div className="contactright text-left">
             <div className="titlecontact">
-              <h4 className="ssss">School</h4>
+              <h4 className="ssss">School- Bloomig Buds Play School</h4>
               <hr />
               <p className="linkwrap">
                 <b className="bbb">Phone:</b>{" "}
@@ -113,6 +113,13 @@ const ContactUs = () => {
                   href="mailto: bloomingbudsbhopal@gmail.com"
                 >
                   bloomingbudsbhopal@gmail.com
+                </a>{" "}
+              </p>
+              <p className="linkwrap">
+                <b className="bbb">Address:</b>{" "}
+                <a className="linkwrap mnc" href="tel:+91 8770553362">
+                D9, New Jail Road, Elixir Garden, Karond , Bhopal Madhya
+          Pradesh 462038
                 </a>{" "}
               </p>
               {/* <p className="linkwrap"><b className="bbb">Website:</b> <a className="linkwrap mnc" href="">

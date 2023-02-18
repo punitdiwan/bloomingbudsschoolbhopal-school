@@ -44,18 +44,18 @@ const Gallery = () => {
             <img src="./images/g12.jpeg" alt="" />
             </div>
         </div>
-        {/* <div className="first">
+        <div className="first">
             <div className="one">
-            <img src="./images/g-extra.jpeg" alt="" />
+            <img src="./images/g13.jpeg" alt="" />
             </div>
             <div className="one">
-            <img src="./images/g-14.jpeg" alt="" />
+            <img src="./images/g14.jpeg" alt="" />
             </div><div className="one">
-            <img src="./images/g-15.jpeg" alt="" />
+            <img src="./images/g15.jpeg" alt="" />
             </div><div className="one">
             <img src="./images/g16.jpeg" alt="" />
             </div>
-        </div> */}
+        </div>
     </div>
     </>
   )

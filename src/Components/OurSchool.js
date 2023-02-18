@@ -50,9 +50,10 @@ const OurSchool = () => {
             <ul className="px-3">
               {/* <li> Blooming Buds Play School is proud to offer:</li> */}
               <li>A great Indian environment for growing and learning</li>
+              and much more…
               {/* <li>Indian Studies, CBSC, and programs</li> */}
 
-              <li>and much more…</li>
+              {/* <li>and much more…</li> */}
             </ul>
             <p>
               We encourage all community members to discover the possibilities

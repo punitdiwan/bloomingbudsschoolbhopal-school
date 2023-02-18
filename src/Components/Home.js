@@ -285,10 +285,10 @@ const BannerSection = () => {
         <div className="container-fluid p-0  d-flex latest_card_box_hls">
           <div className="hlsleft">
             <div className="ccc1_img">
-              <img src="./images/homepage4.jpeg" alt="" />
+              <img src="./images/homepage1.jpeg" alt="" />
             </div>
             <div className="ccc2_img">
-              <img src="./images/homepage3.jpeg" alt="" />
+              <img src="./images/homepage2.jpeg" alt="" />
             </div>
           </div>
           <div className="hlsmid text-center p-5">
@@ -349,10 +349,10 @@ const BannerSection = () => {
           </div>
           <div className="hlsright">
             <div className="ccc1_img">
-              <img src="./images/homepage7.jpeg" alt="" />
+              <img src="./images/homepage3.jpeg" alt="" />
             </div>
             <div className="ccc2_img">
-              <img src="./images/homepage5.jpeg" alt="" />
+              <img src="./images/homepage4.jpeg" alt="" />
             </div>
             {/* <div className="ccc1_img">
               <img src="./images/homepage1.jpeg" alt="" />
