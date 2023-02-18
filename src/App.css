@@ -215,9 +215,9 @@
         width:250px;
       }
 
-      .image-new{
+      .image-new>img{
         padding: 0;
-        /* text-align: center; */
+        text-align: center;
        
     }
     
