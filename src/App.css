@@ -239,7 +239,6 @@
 }
 
 .image-new>img{
-    border-radius: 4px;
     overflow: hidden;
     transition: transform .2s;
 }
