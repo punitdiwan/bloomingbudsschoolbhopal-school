@@ -214,26 +214,37 @@
     .tonavbar1 img{
         width:250px;
       }
+
+      .image-new{
+        padding: 0;
+        text-align: center;
+       
+    }
     
 }
 
   
  
-
+.image-new{
+    padding: 1rem;
+    text-align: center;
+   
+}
  
 
 .two{
     /* border: 2px solid red; */
+  
+
+}
+
+.image-new>img{
+    border-radius: 4px;
     overflow: hidden;
     transition: transform .2s;
-
 }
 
-.two>img{
-    border-radius: 4px;
-}
-
-.two:hover {
+.image-new>img:hover {
     -ms-transform: scale(1.5); /* IE 9 */
     -webkit-transform: scale(1.5); /* Safari 3-8 */
     transform: scale(1.1); 

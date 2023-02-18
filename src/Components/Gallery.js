@@ -1,11 +1,12 @@
 import React from "react";
 import "./css/Gallery.css";
+import Imageviewer from "./Imageviewer";
 
 const Gallery = () => {
   return (
     <>
       <div className="container-fluid">
-        <div className="first">
+        {/* <div className="first">
           <div className="one two">
             <img src="./images/g1.jpeg" alt="" />
           </div>
@@ -60,7 +61,8 @@ const Gallery = () => {
           <div className="one two">
             <img src="./images/g16.jpeg" alt="" />
           </div>
-        </div>
+        </div> */}
+        <Imageviewer/>
       </div>
     </>
   );
