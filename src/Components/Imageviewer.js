@@ -44,7 +44,7 @@ function View() {
           width="280"
           height="280"
           key={ index }
-          style={{ margin: '20px' }}
+        //   style={{ margin: '20px' }}
           alt=""
         />
       ))}
