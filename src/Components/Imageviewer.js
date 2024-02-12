@@ -28,7 +28,8 @@ function View() {
     './33img/9.jpeg',
     './33img/10.jpeg',
     './33img/11.jpeg',
-
+    './33img/6.jpeg',
+    './33img/1.jpeg',
     
     './33img/12.jpeg',
     './33img/15.jpeg',
