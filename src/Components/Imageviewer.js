@@ -7,14 +7,14 @@ function View() {
   const [currentImage, setCurrentImage] = useState(0);
   const [isViewerOpen, setIsViewerOpen] = useState(false);
   const images = [
-   
+    './33img/7.jpeg',
     './33img/1.jpeg',
     './33img/2.jpeg',
     './33img/3.jpeg',
     './33img/4.jpeg',
     './33img/5.jpeg',
     './33img/6.jpeg',
-    './33img/7.jpeg',
+  
     './33img/8.jpeg',
     './33img/9.jpeg',
     './33img/10.jpeg',
