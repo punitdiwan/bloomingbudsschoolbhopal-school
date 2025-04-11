@@ -20,11 +20,13 @@ function View() {
     './33img/10.jpeg',
     './33img/11.jpeg',
     './33img/12.jpeg',
+    './33img/13.jpeg',
+    './33img/14.jpeg',
     './33img/15.jpeg',
     './33img/16.jpeg',
     './33img/17.jpeg',
     './33img/18.jpeg',
-
+    './33img/19.jpeg',
     './33img/20.jpeg',
     './33img/21.jpeg',
     './33img/22.jpeg',
@@ -64,6 +66,9 @@ function View() {
     './33img/56.jpeg',
     './33img/57.jpeg',
     './33img/58.jpeg',
+    './33img/59.jpeg',
+    // './33img/60.jpeg',
+    './33img/61.jpeg',
   ];
 
   const openImageViewer = useCallback((index) => {
