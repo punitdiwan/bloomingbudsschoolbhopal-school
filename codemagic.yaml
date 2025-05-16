@@ -1,0 +1,25 @@
+# Check out https://docs.codemagic.io/yaml/building-a-react-native-app/ for more information
+# Please review and update values
+
+workflows:
+  react:
+    name: Build react app
+    max_build_duration: 60
+    environment:
+      vars:
+        PACKAGE_NAME: "com.maitretech.boilerplate" 
+      node: 16.14.2
+    triggering:
+      events:
+          - push
+          - tag
+          - pull_request
+      branch_patterns:
+          - pattern: main
+            include: true
+            source: true
+    scripts:
+      - name: Install dependencies and Expo CLI, and eject app
+        script: |
+          yarn install
+          yarn global add expo-cli
