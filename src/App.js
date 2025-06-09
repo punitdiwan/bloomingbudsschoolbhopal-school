@@ -15,6 +15,9 @@ import Updates from './Components/Updates';
 import BoardD from './Components/BoardD';
 import Principal from './Components/Principal';
 import ScrollToTop from './Components/ScrollToTop';
+import ReactGA from "react-ga4";
+
+ReactGA.initialize("G-XXXXXXXXXX"); 	
 
 
 function App() {
