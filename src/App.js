@@ -17,7 +17,7 @@ import Principal from './Components/Principal';
 import ScrollToTop from './Components/ScrollToTop';
 import ReactGA from "react-ga4";
 
-ReactGA.initialize("G-XXXXXXXXXX"); 	
+ReactGA.initialize("G-3SJ76WPRRH"); 	
 
 
 function App() {
