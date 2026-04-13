@@ -7,68 +7,45 @@ function View() {
   const [currentImage, setCurrentImage] = useState(0);
   const [isViewerOpen, setIsViewerOpen] = useState(false);
   const images = [
-    './33img/7.jpeg',
-    './33img/1.jpeg',
-    './33img/2.jpeg',
-    './33img/3.jpeg',
-    './33img/4.jpeg',
-    './33img/5.jpeg',
-    './33img/6.jpeg',
-  
-    './33img/8.jpeg',
-    './33img/9.jpeg',
-    './33img/10.jpeg',
-    './33img/11.jpeg',
-    './33img/12.jpeg',
-    './33img/13.jpeg',
-    './33img/14.jpeg',
-    './33img/15.jpeg',
-    './33img/16.jpeg',
-    './33img/17.jpeg',
-    './33img/18.jpeg',
-    './33img/19.jpeg',
-    './33img/20.jpeg',
-    './33img/21.jpeg',
-    './33img/22.jpeg',
-    './33img/23.jpeg',
-    './33img/24.jpeg',
-    './33img/25.jpeg',
-    './33img/26.jpeg',
-    './33img/27.jpeg',
-    './33img/28.jpeg',
-    './33img/29.jpeg',
-    './33img/30.jpeg',
-    './33img/31.jpeg',
-    './33img/32.jpeg',
-    './33img/33.jpeg',
-    './33img/34.jpeg',
-    './33img/35.jpeg',
-    './33img/36.jpeg',
-    './33img/37.jpeg',
-    './33img/38.jpeg',
-    './33img/39.jpeg',
-    './33img/40.jpeg',
-    './33img/41.jpeg',
-    './33img/42.jpeg',
-    './33img/43.jpeg',
-    './33img/44.jpeg',
-    './33img/45.jpeg',
-    './33img/46.jpeg',
-    './33img/47.jpeg',
-    './33img/48.jpeg',
-    './33img/49.jpeg',
-    './33img/50.jpeg',
-    './33img/51.jpeg',
-    './33img/52.jpeg',
-    './33img/53.jpeg',
-    './33img/54.jpeg',
-    './33img/55.jpeg',
-    './33img/56.jpeg',
-    './33img/57.jpeg',
-    './33img/58.jpeg',
-    './33img/59.jpeg',
-    // './33img/60.jpeg',
-    './33img/61.jpeg',
+
+    './34img/1.jpeg',
+    './34img/2.jpeg',
+    './34img/3.jpeg',
+    './34img/4.jpeg',
+    './34img/5.jpeg',
+    './34img/6.jpeg',
+    './34img/7.jpeg',
+    './34img/8.jpeg',
+    './34img/9.jpeg',
+    './34img/10.jpeg',
+    './34img/11.jpeg',
+    './34img/12.jpeg',
+    './34img/13.jpeg',
+    './34img/14.jpeg',
+    './34img/15.jpeg',
+    './34img/16.jpeg',
+    './34img/17.jpeg',
+    './34img/18.jpeg',
+    './34img/19.jpeg',
+    './34img/20.jpeg',
+    './34img/21.jpeg',
+    './34img/22.jpeg',
+    './34img/23.jpeg',
+    './34img/24.jpeg',
+    './34img/25.jpeg',
+    './34img/26.jpeg',
+    './34img/27.jpeg',
+    './34img/28.jpeg',
+    './34img/29.jpeg',
+    './34img/30.jpeg',
+    './34img/31.jpeg',
+    './34img/32.jpeg',
+    './34img/33.jpeg',
+    './34img/34.jpeg',
+    './34img/35.jpeg',
+    './34img/36.jpeg',
+    './34img/37.jpeg',
+
   ];
 
   const openImageViewer = useCallback((index) => {
@@ -85,22 +62,22 @@ function View() {
     <div className='image-new'>
       {images.map((src, index) => (
         <img
-          src={ src }
-          onClick={ () => openImageViewer(index) }
+          src={src}
+          onClick={() => openImageViewer(index)}
           width="280"
           height="280"
-          key={ index }
-        //   style={{ margin: '20px' }}
+          key={index}
+          //   style={{ margin: '20px' }}
           alt=""
         />
       ))}
-   {isViewerOpen && (
+      {isViewerOpen && (
         <ImageViewer
-          src={ images }
-          currentIndex={ currentImage }
-          disableScroll={ false }
-          closeOnClickOutside={ true }
-          onClose={ closeImageViewer }
+          src={images}
+          currentIndex={currentImage}
+          disableScroll={false}
+          closeOnClickOutside={true}
+          onClose={closeImageViewer}
         />
       )}
     </div>
