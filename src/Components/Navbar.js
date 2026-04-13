@@ -23,7 +23,7 @@ const Navbar = () => {
           <div className="socialmedia">
             <a
               href="https://www.facebook.com/profile.php?id=100081782228072"
-              target="_blank"
+              target="blank"
             >
               {" "}
               <i className="ri-facebook-fill"></i>
@@ -32,15 +32,15 @@ const Navbar = () => {
               {" "}
               <a
                 href="https://instagram.com/bloomingbudsplayschool?igshid=ZmZhODViOGI="
-                target="_blank"
+                target="blank"
               >
                 <BsInstagram />
               </a>
             </span>
             <span>
-            <AiOutlineYoutube />
+              <AiOutlineYoutube />
             </span>
-           
+
           </div>
           <div className="seacrch">
             <input className="aa" type="search" />

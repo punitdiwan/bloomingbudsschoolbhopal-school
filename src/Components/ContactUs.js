@@ -77,6 +77,7 @@ const ContactUs = () => {
              */}
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3664.442692726676!2d77.38604311439929!3d23.299691611762043!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x397c68f464d14419%3A0x3ef96b0f39fe6b49!2sBlooming%20Buds%20Play%20school!5e0!3m2!1sen!2sin!4v1675492772061!5m2!1sen!2sin"
+              title="Google Map"
               width="600"
               height="450"
               style={{ border: "0" }}
@@ -84,15 +85,7 @@ const ContactUs = () => {
               loading="lazy"
               referrerpolicy="no-referrer-when-downgrade"
             ></iframe>
-            {/* <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3664.442692726676!2d77.38604311439929!3d23.299691611762043!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x397c68f464d14419%3A0x3ef96b0f39fe6b49!2sBlooming%20Buds%20Play%20school!5e0!3m2!1sen!2sin!4v1675492772061!5m2!1sen!2sin"
-              width="600"
-              height="450"
-              style="border:0;"
-              allowfullscreen=""
-              loading="lazy"
-              referrerpolicy="no-referrer-when-downgrade"
-            ></iframe> */}
+
           </div>
 
           <div className="contactright text-left">
@@ -118,8 +111,8 @@ const ContactUs = () => {
               <p className="linkwrap">
                 <b className="bbb">Address:</b>{" "}
                 <a className="linkwrap mnc" href="tel:+91 8770553362">
-                D9, New Jail Road, Elixir Garden, Karond , Bhopal Madhya
-          Pradesh 462038
+                  D9, New Jail Road, Elixir Garden, Karond , Bhopal Madhya
+                  Pradesh 462038
                 </a>{" "}
               </p>
               {/* <p className="linkwrap"><b className="bbb">Website:</b> <a className="linkwrap mnc" href="">

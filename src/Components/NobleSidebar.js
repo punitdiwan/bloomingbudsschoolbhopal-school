@@ -1,6 +1,5 @@
 import React from "react";
-import {NavLink} from "react-router-dom"
-
+import { NavLink } from "react-router-dom";
 
 const NobleSidebar = () => {
   return (
@@ -12,241 +11,70 @@ const NobleSidebar = () => {
             <i className="ri-search-line"></i>
           </button>
         </div>
+
         <div
-            className="btn btn-light nobaa text-center nobaaa1 mt-4 "
-            type="button"
-            style={{
-              border: "1px solid #797A7B",
-              color: "white",
-              borderRadius: "2px",
-            }}
-          >
-            <a className="text-center hogbtn" style={{color:"white",}}>BLOOMING BUDS PLAY SCHOOL</a>
-          </div>
-        {/* <button className="nobaa mt-5">Hogwarts International School</button> */}
+          className="btn btn-light nobaa text-center nobaaa1 mt-4"
+          style={{
+            border: "1px solid #797A7B",
+            color: "white",
+            borderRadius: "2px",
+          }}
+        >
+          <span className="text-center hogbtn">BLOOMING BUDS PLAY SCHOOL</span>
+        </div>
+
         <div className="nobaa nobaaa">
-          <div
-            className="btn btn-light nobaaa1 "
-            type="button"
-            style={{
-              border: "1px solid #797A7B",
-              color: "#797A7B",
-              borderRadius: "2px",
-            }}
-          >
+          <div className="btn btn-light nobaaa1">
             <NavLink to="/">HOME</NavLink>
           </div>
 
+          {/* ABOUT US dropdown */}
           <div
             className="btn btn-light nobaaa1 dropdown-toggle"
-            type="button"
-            style={{
-              border: "1px solid #797A7B",
-              color: "#797A7B",
-              borderRadius: "2px",
-              
-            }}
             id="dropdownMenuButton"
-                  data-toggle="dropdown"
-                  aria-haspopup="true"
-                  aria-expanded="false"
+            data-toggle="dropdown"
+            aria-haspopup="true"
+            aria-expanded="false"
           >
-          
-            <NavLink to="">ABOUT US</NavLink>
+            ABOUT US
           </div>
-          <div
-                  className="dropdown-menu p-0"
-                  aria-labelledby="dropdownMenuButton"
-                >
-                  <a className="dropdown-item" to="/ourschool">
-                    OUR SCHOOL
-                  </a>
-                  <a className="dropdown-item" to="/boarddirector">
-                    BOARD OF DIRECTOR
-                  </a>
-                  <a className="dropdown-item" to="/principal">
-                    PRINCIPAL
-                  </a>
-                </div>
 
-          <div
-            className="btn btn-light nobaaa1 "
-            type="button"
-            style={{
-              border: "1px solid #797A7B",
-              color: "#797A7B",
-              borderRadius: "2px",
-            }}
-          >
+          <div className="dropdown-menu p-0" aria-labelledby="dropdownMenuButton">
+            <NavLink className="dropdown-item" to="/ourschool">
+              OUR SCHOOL
+            </NavLink>
+
+            <NavLink className="dropdown-item" to="/boarddirector">
+              BOARD OF DIRECTOR
+            </NavLink>
+
+            <NavLink className="dropdown-item" to="/principal">
+              PRINCIPAL
+            </NavLink>
+          </div>
+
+          <div className="btn btn-light nobaaa1">
             <NavLink to="/academicprocedure">ACADEMIC</NavLink>
           </div>
-          <div
-            className="btn btn-light nobaaa1 "
-            type="button"
-            style={{
-              border: "1px solid #797A7B",
-              color: "#797A7B",
-              borderRadius: "2px",
-            }}
-          >
+
+          <div className="btn btn-light nobaaa1">
             <NavLink to="/gallery">GALLERY</NavLink>
           </div>
-          <div
-            className="btn btn-light nobaaa1 "
-            type="button"
-            style={{
-              border: "1px solid #797A7B",
-              color: "#797A7B",
-              borderRadius: "2px",
-            }}
-          >
+
+          <div className="btn btn-light nobaaa1">
             <NavLink to="/contactus">CONTACT US</NavLink>
           </div>
 
-
-          <div
-            className="btn btn-light nobaa text-center hogbtn nobaaa1 mt-4 "
-            type="button"
-            style={{
-              border: "1px solid #797A7B",
-              color: "white",
-              borderRadius: "2px",
-            }}
-          >
-            <a>Did You Know?</a>
+          <div className="btn btn-light text-center hogbtn nobaaa1 mt-4">
+            Did You Know?
           </div>
-          <div
-                  className="btn btn-sm p-3 didyou"
-                  type="button"
-                  style={{
-                    border: "1px solid #797A7B",
-                    color: "#797A7B",
-                    borderRadius: "2px",
-                  }}
-                >
-                  The Blooming Buds Play School was the first educational institute
-                  in Bhopal,M.P. ON to offer Blooming Buds Play School Education
-                </div>
 
+          <div className="btn btn-sm p-3 didyou">
+            The Blooming Buds Play School was the first educational institute in
+            Bhopal, M.P. to offer play school education.
+          </div>
         </div>
       </div>
-
-      {/*  <div className="ourschoolright p-4"> 
-              <div className="seacrch">
-                <input
-                  className="aa"
-                  style={{ border: "1px solid #D1D5DB" }}
-                  type="search"
-                />
-                <div
-                  className="btn btn-lg"
-                  style={{
-                    backgroundColor: "white;",
-                    border: "1px solid #D1D5DB",
-                  }}
-                >
-                  
-                </div>
-              </div>
-              <div className="navser mt-3">
-                <a className="btn btn-lg px-5 noblebtn"></a>
-                <a
-                  className="btn btn-light"
-                  type="button"
-                  style={{
-                    border: "1px solid #797A7B",
-                    color: "#797A7B",
-                    borderRadius: "2px",
-                  }}
-                >
-                  Home
-                </a>
-
-                <a
-                  className="btn btn-light dropdown-toggle"
-                  style={{
-                    border: "1px solid #797A7B",
-                    color: "#797A7B",
-                    borderRadius: "2px",
-                  }}
-                  type="button"
-                  id="dropdownMenuButton"
-                  data-toggle="dropdown"
-                  aria-haspopup="true"
-                  aria-expanded="false"
-                >
-                  ABOUT US
-                </a>
-                <div
-                  className="dropdown-menu p-0"
-                  aria-labelledby="dropdownMenuButton"
-                >
-                  <a className="dropdown-item" href="#">
-                    OUR SCHOOL
-                  </a>
-                  <a className="dropdown-item" href="#">
-                    BOARD OF DIRECTOR
-                  </a>
-                  <a className="dropdown-item" href="#">
-                    PRINCIPAL
-                  </a>
-                </div>
-                <a
-                  className="btn btn-light"
-                  style={{
-                    border: "1px solid #797A7B",
-                    color: "#797A7B",
-                    borderRadius: "2px",
-                  }}
-                  type="button"
-                >
-                  FACILITIES
-                </a>
-
-                <a
-                  className="btn btn-light"
-                  type="button"
-                  style={{
-                    border: "1px solid #797A7B",
-                    color: "#797A7B",
-                    borderRadius: "2px",
-                  }}
-                >
-                  GALLERY
-                </a>
-                <a
-                  className="btn btn-light"
-                  type="button"
-                  style={{
-                    border: "1px solid #797A7B",
-                    color: "#797A7B",
-                    borderRadius: "2px",
-                 
-
-                    
-                  }}
-                >
-                  CONTACT US
-                </a>
-
-                <a className="btn btn-lg px-5 noblebtn mt-5">DID YOU KNOW?</a>
-                <div
-                  className="btn btn-sm p-3 didyou"
-                  type="button"
-                  style={{
-                    border: "1px solid #797A7B",
-                    color: "#797A7B",
-                    borderRadius: "2px",
-                  }}
-                >
-                  The Nobile Public School was the first educational institute
-                  in London, ON to offer Islamic Education
-                </div>
-              </div>
-            </div>
-          </div>
-    
-     */}
     </>
   );
 };
