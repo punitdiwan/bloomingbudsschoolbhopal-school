@@ -83,5 +83,4 @@ function View() {
     </div>
   );
 }
-
 export default View;
